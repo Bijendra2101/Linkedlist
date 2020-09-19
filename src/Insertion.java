@@ -1,5 +1,5 @@
 
-public class insertion { 
+public class Insertion { 
 
 	Node head; 
 
@@ -15,7 +15,7 @@ public class insertion {
 		} 
 	} 
 
-	public static insertion insert(insertion list, int data) 
+	public static Insertion insert(Insertion list, int data) 
 	{ 
 
 		Node new_node = new Node(data); 
@@ -37,7 +37,7 @@ public class insertion {
 		return list; 
 	} 
  
-	public static void printList(insertion list) 
+	public static void printList(Insertion list) 
 	{ 
 		Node currNode = list.head; 
 
@@ -53,7 +53,7 @@ public class insertion {
 
 	public static void main(String[] args) 
 	{ 
-		insertion list = new insertion(); 
+		Insertion list = new Insertion(); 
 
 		list = insert(list, 1); 
 		list = insert(list, 2); 
